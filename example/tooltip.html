@@ -1,0 +1,75 @@
+<link type="text/css" rel="stylesheet" href="http://blog.vjeux.com/wp-content/uploads/2011/09/tooltip.css">
+<style>
+ins, del {
+    text-decoration: none;
+}
+.new ins {
+    background-color: #afa;
+}
+.old ins {
+    background-color: #faa;
+}
+.sigrie-tooltip ins {
+    color: black;
+    background-color: #80FF80;
+    font-weight: bold;
+}
+</style>
+
+<script src="../src/htmldiff.js"></script>
+
+<table>
+<tbody><tr class="change tooltip" id="78487-tooltip">
+<td class="value old" valign="top">
+<div class="tt-spell sigrie-tooltip tt-spell-tradespell" id="old-tooltip">
+<div class="tt-name tti-name q4"><a href="http://db.mmo-champion.com/i/56561/chestguard-of-natures-fury/" class="q4">Chestguard of Nature's Fury</a></div>
+<div class="tti-quality">Epic</div>
+<div class="tti-bind">Binds when equipped</div>
+<div class="tti-subclass"><a href="http://db.mmo-champion.com/items/4/2/">Armor</a></div>
+<div class="tti-slot">Chest</div>
+<div class="tti-armor">1669 Armor</div>
+<div>
+<div class="tti-stat">+341 Intellect</div>
+<div class="tti-stat">+512 Stamina</div>
+</div>
+<div class="tti-required_level">Requires Level 85</div>
+<div class="tti-level">Item Level 359</div>
+<div class="tti-stat-special">
+<div class="tti-stat">Equip: Improves critical strike rating by 205.</div>
+<div class="tti-stat">Equip: Increases your mastery rating by 241.</div>
+</div>
+</div>
+</td>
+<td class="value new">
+<div class="tt-spell sigrie-tooltip tt-spell-tradespell" id="new-tooltip">
+<div class="tt-name tti-name q4"><a href="http://db.mmo-champion.com/i/56561/chestguard-of-natures-fury/" class="q4">Chestguard of Nature's Fury</a></div>
+<div class="tti-quality">Epic</div>
+<div class="tti-bind">Binds when equipped</div>
+<div class="tti-subclass"><a href="http://db.mmo-champion.com/items/4/2/">Armor</a></div>
+<div class="tti-slot">Chest</div>
+<div class="tti-armor">1669 Armor</div>
+<div>
+<div class="tti-stat">+321 Intellect</div>
+<div class="tti-stat">+512 Stamina</div>
+</div>
+<div class="tti-sockets">
+<div class="socket-red wow-socket tti-socket"><a href="http://db.mmo-champion.com/items/?gem_color__band=2">Red Socket</a></div>
+<div class="tti-socket_bonus">Socket Bonus: <a href="http://db.mmo-champion.com/e/4211/10-haste-rating/">+10 Haste Rating</a></div>
+</div>
+<div class="tti-required_level">Requires Level 85</div>
+<div class="tti-level">Item Level 359</div>
+<div class="tti-stat-special">
+<div class="tti-stat">Equip: Improves critical strike rating by 205.</div>
+<div class="tti-stat">Equip: Increases your mastery rating by 221.</div>
+</div>
+</div>
+</td>
+</tr>
+</tbody></table>
+
+<script>
+new HTMLDiff(
+	document.getElementById('old-tooltip'),
+	document.getElementById('new-tooltip'))
+	.diff();
+</script>
