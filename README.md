@@ -1,4 +1,3 @@
-
 jsHTMLDiff
 ==========
 
@@ -18,7 +17,7 @@ Just include the htmldiff.js file. No dependencies.
 Example
 =======
 
-We have two tooltips of the same Worlf of Warcraft items from two different patches.
+We have two tooltips of the same World of Warcraft items from two different patches.
 
 <a href="http://fooo.fr/~vjeux/github/jsHTMLDiff/example/tooltip.html"><img src="http://fooo.fr/~vjeux/github/jsHTMLDiff/image/before.png"></a>
 
