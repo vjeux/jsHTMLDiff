@@ -3,9 +3,6 @@ class window.HTMLDiff
 	constructor: (@a, @b) ->
 
 	diff: ->
-		tokens_a =
-		tokens_b = @tokenize @b
-
 		diff = @diff_list (@tokenize @a), (@tokenize @b)
 		@update @a, diff.filter ([status, text]) -> status != '+'
 		@update @b, diff.filter ([status, text]) -> status != '-'
